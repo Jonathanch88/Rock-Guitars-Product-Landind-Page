@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6dfe0;
+  width: 100%;
+  color: #333;
+
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #e6dfe0;
+}
+
+.container {
+  margin-top: 180px;
+}
+
+#header-img {
+  margin: 10px;
+  width: 12%;
+}
+
+
+#nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.3em;
+
+}
+
+#nav-bar ul a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  width: 80%;
+  margin: 10px auto;
+  font-size: 1em;
+  padding: 5px;
+  border: 1px solid #888;
+  border-radius: 3px;
+}
+
+#submit {
+  width: 20%;
+  margin: 10px auto;
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 3px;
+  color: #aaa;
+  font-size: 1em;
+  padding: 5px;
+  cursor: pointer;
+}
+
+h3 {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+#HowItWorks {
+  text-align: center;
+  margin: 50px auto;
+}
+
+#Pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.containerPricing {
+  border: 1px solid #fff;
+  width: 350px;
+  border-radius: 3px;
+  background-color: #999;
+  color: #000;
+  padding: 15px 0 xs;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.name {
+  width: 100%;
+  background-color: #292929;
+  color: #fcfafa;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.price {
+  width: 100%;
+  background-color: #e2fa06a8;
+  color: #000000;
+  text-align: center;
+
+}
+
+.containerPricing ul {
+  list-style: none;
+  margin: 10px 0;
+
+}
+
+.containerPricing ul li {
+  margin: 10px 0;
+
+}
+
+.btn {
+  width: 50%;
+  margin: 10px 0;
+  padding: 5px;
+  background-color: #292929;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #666;
+  height: 60px;
+  text-align: center;
+  padding: 10px 0
+}
+
+.linksFooter a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #header img {
+    width: 50%;
+
+  }
+
+  #nav-bar {
+    width: 100%
+  }
+
+  #form {
+    width: 100%;
+  }
+
+  h3 {
+    line-height: 30px;
+    font-size: 1em;
+  }
+
+  iframe {
+    width: 80%;
+    height: 100%;
+  }
+
+  .containerPricing {
+    width: 80%;
+  }
+}
