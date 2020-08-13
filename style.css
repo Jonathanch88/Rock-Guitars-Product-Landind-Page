@@ -9,7 +9,10 @@ body {
   width: 100%;
   color: #333;
 
+}
 
+html {
+  scroll-behavior: smooth;
 }
 
 header {
@@ -29,6 +32,10 @@ header {
 #header-img {
   margin: 10px;
   width: 12%;
+}
+
+#Features {
+  padding-top: 120px;
 }
 
 
@@ -98,6 +105,8 @@ h3 {
 #HowItWorks {
   text-align: center;
   margin: 50px auto;
+  padding-top: 120px;
+
 }
 
 #Pricing {
